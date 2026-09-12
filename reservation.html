@@ -1,0 +1,133 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+    <div class="logo">
+        <img src="logo.png" alt="sa se logo SAVORA">
+        
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html" class="actve">Acceuil</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="galeri.html">Galerie</a></li>
+        <li><a href="reservation.html">Réservation</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="reservation-section">
+    <div class="reservation-container">
+        <div class="reservation-header">
+            <h1>reservez une table</h1>
+            <p>vivez une expérience gastronomique inoubliable chez SAVORA</p>
+        </div>
+
+        <form class="reservation-form">
+
+            <div class="form-group">
+                <label for="fullname">Nom Complet</label>
+                <input type="text" id="fullname" placeholder=" Eric jn baptiste" required>
+
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="email">Email</label>
+            <input type="Email" id="email" placeholder="votre@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Téléphone/WhatsApp</label>
+                    <input type="tel" id="phone" placeholder="+509 xxxx-xxxx" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="date"> Date de Réservation</label>
+                    <input type="date" id="date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="time"> Heure</label>
+                    <input type="time" id="time" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="guests">Nombre de Personnes</label>
+                    <select id="guests" required>
+                        <option value=""> Sélectionnez</option>
+                        <option value="1">Une personne</option>
+                        <option value="2">Deux personnes (Table Romantique)</option>
+                        <option value="4"> Quatre personnes (famille)</option>
+                        <option value="6">Six personnes ou plus (groupe)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="occasion"Occasion spéciale></label>
+                    <select id="occasion">
+                        <option value="standard">Diner Standard</option>
+                        <option value="rdv">Rencontre d'affaires</option>
+                        <option value="anniversaire">Anniversaire</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+            <label for="message"Notes ou Demande Particulière></label>
+            <textarea id="message" rows="4" placeholder="précisez si vous avez des allergie ou autres..."></textarea>
+            </div>
+
+            <button type="submit" class="submit btn">Confirmer la Réservation</button>
+        </form>
+
+    </div>
+
+</section>
+
+    
+</body>
+<footer>
+    <div class="footer-container">
+
+        <div class="footer-box">
+            <h2> SAVORA</h2>
+            <p>La saveur d'Haiti dans chaque bouchée</p>
+
+        </div>
+        <div class="footer-box">
+            <h3> Liens rapides</h3>  
+    <ul>
+        <li><a href="index.html" class="actve">Acceuil</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="galeri.html">Galerie</a></li>
+        <li><a href="reservation.html">Réservation</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+            </div>
+            
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <p>email:savorarestaurant@gmail.com</p>
+                <p>whatApp: 34712292</p>
+                <p>Add: Pétion-ville, Haiti</p>
+            </div>
+
+            <div class footer-bottom>
+                 <p>©2026 SAVORA | tous droits réservés - Projet Power Academie </p>
+
+            </div>
+
+
+    </div>
+
+</footer>
+
+</html>
